@@ -1,0 +1,20 @@
+2014-11-02 Nils Blattner <nb@cabag.ch>
+	* version 0.0.4
+	* [BUG] fixed a quadruple :
+	* [BUG] changed function tx_RealurlPersistence_Hooks_Fallback::getRootPageId() to public
+	* [BUG] added $GLOBALS['TSFE']->initTemplate(); to tx_RealurlPersistence_Hooks_Fallback::fakeFrontend()
+	* [FEATURE] added crdate to be set initially
+	* [FEATURE] changed tstamp to be updated on overwrites
+	* [TASK] removed hidden sql field
+
+2014-11-02 Nils Blattner <nb@cabag.ch>
+	* version 0.0.3
+	* [FEATURE] implemented per page tree urls
+
+2014-11-01 Nils Blattner <nb@cabag.ch>
+	* version 0.0.2
+	* [FEATURE] implemented the fallback solution
+
+2014-10-29 Nils Blattner <nb@cabag.ch>
+	* version 0.0.1
+	* [FEATURE] implemented the solution to catch and store all url
